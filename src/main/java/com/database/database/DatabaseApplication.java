@@ -17,6 +17,15 @@ public class DatabaseApplication {
 	}
 
 
+	/**
+	 * It decides which frontend is allowed to call your Spring Boot APIs from the browser.(here, it allows only from port 4200) note: it wont check when requests from server side, ex: postman.
+	 * Website request:
+		 * OPTIONS /employees
+		 * Origin: http://localhost:4200
+		 * Access-Control-Request-Method: GET
+	 * Server request or in Postman:
+		 * only GET/POST no OPTIONS
+	 */
 	@Bean
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
