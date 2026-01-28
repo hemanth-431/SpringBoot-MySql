@@ -1,7 +1,7 @@
 package com.database.database.controller;
 import com.database.database.JPARepository.EmployeeRepo;
 import com.database.database.model.Employee;
-import com.database.database.service.CursorPageResponse;
+import com.database.database.model.CursorPageResponse;
 import com.database.database.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

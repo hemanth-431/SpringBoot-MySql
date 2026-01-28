@@ -2,6 +2,7 @@ package com.database.database.service;
 
 import com.database.database.Exception.UserNotFoundException;
 import com.database.database.JPARepository.EmployeeRepo;
+import com.database.database.model.CursorPageResponse;
 import com.database.database.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

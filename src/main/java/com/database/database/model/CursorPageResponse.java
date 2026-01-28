@@ -1,4 +1,4 @@
-package com.database.database.service;
+package com.database.database.model;
 
 import lombok.Builder;
 import lombok.Data;
